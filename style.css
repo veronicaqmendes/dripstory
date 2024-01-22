@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#pai {
+display: flex;
+justify-content: space-around;
+margin-top: 5vh;
+
+}
+.search{
+    width: 25vw;
+    height:10vh;
+    padding-top: 2vh;
+}
+.search input{
+    width: 90%;
+    height: 55%;
+    background-color: rgb(245, 244, 244);
+    border: none;
+
+}
+.search input::placeholder{
+    padding-left: 1vw;
+}
+
+.search i {
+    margin-left: -2vw;
+}
+.cadastro{
+    padding-top: 2vh;
+    width: 15vw;
+    height: 8vh;
+    
+}
+.cadastro a{
+    margin-right: 1vw;
+}
+
+.cadastro button{
+    width: 7vw;
+    height: 4vh;
+    background-color: #C92071;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.carrinho{
+    margin-top: 3vh;
+}
